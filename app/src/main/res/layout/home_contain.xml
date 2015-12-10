@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/home_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="美好小物"/>
+        <RadioButton
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="美好小物"/>
+        <RadioButton
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="美好小物"/>
+        <RadioButton
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="天天刮奖"/>
+    </RadioGroup>
+</LinearLayout>

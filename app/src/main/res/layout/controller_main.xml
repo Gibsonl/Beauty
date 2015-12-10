@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <RadioGroup
+        android:id="@+id/table_Rg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/home_Rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:drawableTop="@drawable/table_home"
+           style="@style/RadioButtonStyle"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/gift_Rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/table_gift"
+            style="@style/RadioButtonStyle"
+            android:text="单品" />
+
+        <RadioButton
+            android:id="@+id/category_Rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/table_category"
+            style="@style/RadioButtonStyle"
+            android:text="分类" />
+
+        <RadioButton
+            android:id="@+id/mine_Rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/table_mine"
+            style="@style/RadioButtonStyle"
+            android:text="我" />
+    </RadioGroup>
+
+
+</LinearLayout>

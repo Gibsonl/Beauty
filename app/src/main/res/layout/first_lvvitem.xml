@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:background="@drawable/fram_shape"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/firstLvvItem_Mark"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ig_marker_fresh"/>
+<ImageView
+    android:id="@+id/firstLvvItem_photo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@mipmap/ic_launcher"
+    />
+<ImageView
+    android:id="@+id/firstLvvItem_prise"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:src="@drawable/prise_select"
+     android:layout_marginRight="55dp"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="right"
+
+    />
+        <ImageView
+            android:layout_gravity="right"
+            android:layout_width="90dp"
+            android:layout_height="42dp"
+            android:src="@mipmap/bg_feed_favourite"
+            android:scaleType="centerCrop"
+            android:layout_margin="7dp"/>
+        <TextView
+            android:id="@+id/firstLvvItem_priseNum"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_margin="15dp"
+            android:text="12000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="bottom"
+            android:text="参加baby的满月酒，送这写才能助Ta健康成长"
+            android:layout_marginTop="10dp"/>
+    </FrameLayout>
+
+</LinearLayout>

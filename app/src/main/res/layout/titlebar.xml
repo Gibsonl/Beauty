@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:gravity="bottom"
+    >
+
+    <ImageView
+        android:id="@+id/titleBar_saoyisao"
+        android:layout_margin="10dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@mipmap/ic_toolkit_zebra_scanner"
+       />
+    <ImageView
+        android:id="@+id/titleBar_back"
+        android:layout_margin="10dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:visibility="gone"
+        android:src="@mipmap/ic_action_back"
+        />
+    <TextView
+        android:id="@+id/titleBar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="礼物说"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:id="@+id/titleBar_search"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@mipmap/ic_menu_search"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+       />
+</RelativeLayout>
